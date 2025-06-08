@@ -1,4 +1,4 @@
-![torchlm-logo](https://github.com/DefTruth/torchlm/assets/31974251/8baf6761-85c1-4ff0-aef1-291ed1ca469e)    
+![torchlm-logo](https://github.com/xlite-dev/torchlm/assets/31974251/8baf6761-85c1-4ff0-aef1-291ed1ca469e)    
 
 <!----
 <div align='center'>
@@ -21,13 +21,10 @@
 
 <p align="center">English | <a href="docs/api/transforms.md">Data Augmentations API Docs</a> | <a href="https://www.zhihu.com/column/c_1426666301352218624">ZhiHu Page</a> | <a href="https://pepy.tech/project/torchlm">Pypi Downloads</a> </p>
 
-## News 👇👇
-Most of my time now is focused on **LLM/VLM** Inference. Please check 📖[Awesome-LLM-Inference](https://github.com/DefTruth/Awesome-LLM-Inference)  ![](https://img.shields.io/github/stars/DefTruth/Awesome-LLM-Inference.svg?style=social), 📖[Awesome-SD-Inference](https://github.com/DefTruth/Awesome-SD-Inference)  ![](https://img.shields.io/github/stars/DefTruth/Awesome-SD-Inference.svg?style=social) and 📖[CUDA-Learn-Notes](https://github.com/DefTruth/CUDA-Learn-Notes)  ![](https://img.shields.io/github/stars/DefTruth/CUDA-Learn-Notes.svg?style=social) for more details.
-
 ## 🤗 Introduction
 **torchlm** is aims to build a high level pipeline for face landmarks detection, it supports **training**, **evaluating**, **exporting**, **inference(Python/C++)** and **100+ data augmentations**, can easily install via **pip**.
 <div align='center'>
-  <img src='https://github.com/DefTruth/torchlm/assets/31974251/40fc4421-f628-4d5b-96e4-d486711284f9' height="100px" width="720px">
+  <img src='https://github.com/xlite-dev/torchlm/assets/31974251/40fc4421-f628-4d5b-96e4-d486711284f9' height="100px" width="720px">
 </div>  
 
 ## 👋 Core Features
@@ -43,16 +40,16 @@ Most of my time now is focused on **LLM/VLM** Inference. Please check 📖[Aweso
 ## 🔥🔥Performance(@NME)
 
 <div align='center'>
-  <img src='https://github.com/DefTruth/torchlm/assets/31974251/74a9607a-772e-4508-8c24-efc7404a97cb' height="150px" width="400px">
-  <img src='https://github.com/DefTruth/torchlm/assets/31974251/05f06090-d751-4949-abb1-ea56182fabcd' height="150px" width="400px">
+  <img src='https://github.com/xlite-dev/torchlm/assets/31974251/74a9607a-772e-4508-8c24-efc7404a97cb' height="150px" width="400px">
+  <img src='https://github.com/xlite-dev/torchlm/assets/31974251/05f06090-d751-4949-abb1-ea56182fabcd' height="150px" width="400px">
 </div>  
 
 |Model|Backbone|Head|300W|COFW|AFLW|WFLW|Download|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|[PIPNet](https://arxiv.org/pdf/2003.03771.pdf)|MobileNetV2|Heatmap+Regression+NRM|3.40|3.43|1.52|4.79| [link](https://github.com/DefTruth/torchlm/releases/tag/torchlm-0.1.6-alpha)|
-|[PIPNet](https://arxiv.org/pdf/2003.03771.pdf)|ResNet18|Heatmap+Regression+NRM|3.36|3.31|1.48|4.47| [link](https://github.com/DefTruth/torchlm/releases/tag/torchlm-0.1.6-alpha)|
-|[PIPNet](https://arxiv.org/pdf/2003.03771.pdf)|ResNet50|Heatmap+Regression+NRM|3.34|3.18|1.44|4.48| [link](https://github.com/DefTruth/torchlm/releases/tag/torchlm-0.1.6-alpha)|
-|[PIPNet](https://arxiv.org/pdf/2003.03771.pdf)|ResNet101|Heatmap+Regression+NRM|3.19|3.08|1.42|4.31| [link](https://github.com/DefTruth/torchlm/releases/tag/torchlm-0.1.6-alpha)|
+|[PIPNet](https://arxiv.org/pdf/2003.03771.pdf)|MobileNetV2|Heatmap+Regression+NRM|3.40|3.43|1.52|4.79| [link](https://github.com/xlite-dev/torchlm/releases/tag/torchlm-0.1.6-alpha)|
+|[PIPNet](https://arxiv.org/pdf/2003.03771.pdf)|ResNet18|Heatmap+Regression+NRM|3.36|3.31|1.48|4.47| [link](https://github.com/xlite-dev/torchlm/releases/tag/torchlm-0.1.6-alpha)|
+|[PIPNet](https://arxiv.org/pdf/2003.03771.pdf)|ResNet50|Heatmap+Regression+NRM|3.34|3.18|1.44|4.48| [link](https://github.com/xlite-dev/torchlm/releases/tag/torchlm-0.1.6-alpha)|
+|[PIPNet](https://arxiv.org/pdf/2003.03771.pdf)|ResNet101|Heatmap+Regression+NRM|3.19|3.08|1.42|4.31| [link](https://github.com/xlite-dev/torchlm/releases/tag/torchlm-0.1.6-alpha)|
 
 
 ## 🛠️Installation
@@ -63,7 +60,7 @@ pip install torchlm>=0.1.6.10 -i https://pypi.org/simple/ # or install from spec
 ```
 or install from source if you want the latest torchlm and install it in editable mode with `-e`.
 ```shell
-git clone --depth=1 https://github.com/DefTruth/torchlm.git 
+git clone --depth=1 https://github.com/xlite-dev/torchlm.git 
 cd torchlm && pip install -e .
 ```
 <div id="torchlm-NOTE"></div>  
@@ -85,13 +82,13 @@ transform = torchlm.LandmarksCompose([
 ])
 ```  
 <div align='center'>
-  <img src='https://github.com/DefTruth/torchlm/assets/31974251/36c595e0-2d12-43fb-8981-f57fda62a7b4' height="100px" width="100px">
-  <img src='https://github.com/DefTruth/torchlm/assets/31974251/de6259ff-cce3-428b-a16f-369ec2ca7b35' height="100px" width="100px">
-  <img src='https://github.com/DefTruth/torchlm/assets/31974251/a4ffdc92-ce14-400a-a3dc-33bd0b6388bf' height="100px" width="100px">
-  <img src='https://github.com/DefTruth/torchlm/assets/31974251/e8039440-3e8d-4c78-b216-45b8e9996379' height="100px" width="100px">
-  <img src='https://github.com/DefTruth/torchlm/assets/31974251/a48b4793-a837-4221-964a-d3976af4c604' height="100px" width="100px">
-  <img src='https://github.com/DefTruth/torchlm/assets/31974251/7478df16-bc7d-4727-893f-4f3a8db7b442' height="100px" width="100px">
-  <img src='https://github.com/DefTruth/torchlm/assets/31974251/a263d814-1db1-4bc0-b138-c956030f5cc4' height="100px" width="100px">
+  <img src='https://github.com/xlite-dev/torchlm/assets/31974251/36c595e0-2d12-43fb-8981-f57fda62a7b4' height="100px" width="100px">
+  <img src='https://github.com/xlite-dev/torchlm/assets/31974251/de6259ff-cce3-428b-a16f-369ec2ca7b35' height="100px" width="100px">
+  <img src='https://github.com/xlite-dev/torchlm/assets/31974251/a4ffdc92-ce14-400a-a3dc-33bd0b6388bf' height="100px" width="100px">
+  <img src='https://github.com/xlite-dev/torchlm/assets/31974251/e8039440-3e8d-4c78-b216-45b8e9996379' height="100px" width="100px">
+  <img src='https://github.com/xlite-dev/torchlm/assets/31974251/a48b4793-a837-4221-964a-d3976af4c604' height="100px" width="100px">
+  <img src='https://github.com/xlite-dev/torchlm/assets/31974251/7478df16-bc7d-4727-893f-4f3a8db7b442' height="100px" width="100px">
+  <img src='https://github.com/xlite-dev/torchlm/assets/31974251/a263d814-1db1-4bc0-b138-c956030f5cc4' height="100px" width="100px">
 </div>  
 
 Also, a user-friendly API `build_default_transform` is available to build a default transform pipeline.
@@ -227,7 +224,7 @@ model.apply_training(
     shuffle=True
 )
 ```  
-Please jump to the entry point of the function for the detail documentations of **apply_training** API for each defined models in torchlm, e.g [pipnet/_impls.py#L166](https://github.com/DefTruth/torchlm/blob/main/torchlm/models/pipnet/_impls.py#L166). You might see some logs if the training process is running: 
+Please jump to the entry point of the function for the detail documentations of **apply_training** API for each defined models in torchlm, e.g [pipnet/_impls.py#L166](https://github.com/xlite-dev/torchlm/blob/main/torchlm/models/pipnet/_impls.py#L166). You might see some logs if the training process is running: 
 
 ```shell
 Parameters for DataLoader:  {'batch_size': 16, 'num_workers': 4, 'shuffle': True}
@@ -291,7 +288,7 @@ cv2.imwrite("./logs/wflw_meanface.jpg", rendered_meanface)
 model.set_custom_meanface(custom_meanface_file_or_string=custom_meanface_string)
 ```
 <div align='center'>
-  <img src='https://github.com/DefTruth/torchlm/assets/31974251/68eb7769-8e91-45ac-a91f-1af576ad5e68' height="200px" width="200px">
+  <img src='https://github.com/xlite-dev/torchlm/assets/31974251/68eb7769-8e91-45ac-a91f-1af576ad5e68' height="200px" width="200px">
 </div>  
 
 ### Benchmarks Dataset Converters👇
@@ -322,7 +319,7 @@ Then, the output's layout in `../data/WFLW/converted` would be look like:
 
 ## 🛸🚵‍️ Inference
 ### C++ APIs👀
-The ONNXRuntime(CPU/GPU), MNN, NCNN and TNN C++ inference of **torchlm** will be release in **[lite.ai.toolkit](https://github.com/DefTruth/lite.ai.toolkit)**. Here is an example of **1000 Facial Landmarks Detection** using [FaceLandmarks1000](https://github.com/Single430/FaceLandmark1000). Download model from Model-Zoo[<sup>2</sup>](https://github.com/DefTruth/lite.ai.toolkit#lite.ai.toolkit-Model-Zoo).
+The ONNXRuntime(CPU/GPU), MNN, NCNN and TNN C++ inference of **torchlm** will be release in **[lite.ai.toolkit](https://github.com/xlite-dev/lite.ai.toolkit)**. Here is an example of **1000 Facial Landmarks Detection** using [FaceLandmarks1000](https://github.com/Single430/FaceLandmark1000). Download model from Model-Zoo[<sup>2</sup>](https://github.com/xlite-dev/lite.ai.toolkit#lite.ai.toolkit-Model-Zoo).
 
 ```C++
 #include "lite/lite.h"
@@ -346,9 +343,9 @@ static void test_default()
 ```
 The output is:
 <div align='center'>
-  <img src='https://github.com/DefTruth/torchlm/assets/31974251/eca927eb-bcba-42dc-9a62-b0e14eb378bd' height="200px" width="250px">
-  <img src='https://github.com/DefTruth/torchlm/assets/31974251/2462d43f-cd6e-4f41-af1c-ee9c2b008237' height="200px" width="250px">
-  <img src='https://github.com/DefTruth/torchlm/assets/31974251/8ebddaea-b5e1-4b5d-b2c5-7015b30f9649' height="200px" width="250px">
+  <img src='https://github.com/xlite-dev/torchlm/assets/31974251/eca927eb-bcba-42dc-9a62-b0e14eb378bd' height="200px" width="250px">
+  <img src='https://github.com/xlite-dev/torchlm/assets/31974251/2462d43f-cd6e-4f41-af1c-ee9c2b008237' height="200px" width="250px">
+  <img src='https://github.com/xlite-dev/torchlm/assets/31974251/8ebddaea-b5e1-4b5d-b2c5-7015b30f9649' height="200px" width="250px">
 </div>    
 
 More classes for face alignment (68 points, 98 points, 106 points, 1000 points)
@@ -364,10 +361,10 @@ auto *align = new lite::cv::face::align::PIPNet68(onnx_path);  // 68 landmarks, 
 auto *align = new lite::cv::face::align::PIPNet29(onnx_path);  // 29 landmarks, CVPR2021!
 auto *align = new lite::cv::face::align::PIPNet19(onnx_path);  // 19 landmarks, CVPR2021!
 ```  
-More details of C++ APIs, please check **[lite.ai.toolkit](https://github.com/DefTruth/lite.ai.toolkit)**. ![](https://img.shields.io/github/stars/DefTruth/lite.ai.toolkit.svg?style=social) ![](https://img.shields.io/github/forks/DefTruth/lite.ai.toolkit.svg?style=social) ![](https://img.shields.io/github/watchers/DefTruth/lite.ai.toolkit.svg?style=social)
+More details of C++ APIs, please check **[lite.ai.toolkit](https://github.com/xlite-dev/lite.ai.toolkit)**. ![](https://img.shields.io/github/stars/xlite-dev/lite.ai.toolkit.svg?style=social) ![](https://img.shields.io/github/forks/xlite-dev/lite.ai.toolkit.svg?style=social) ![](https://img.shields.io/github/watchers/xlite-dev/lite.ai.toolkit.svg?style=social)
 
 ### Python APIs👇
-In **torchlm**, we provide pipelines for deploying models with [PyTorch](https://github.com/pytorch/pytorch) and [ONNXRuntime](https://github.com/microsoft/onnxruntime). A high level API named `runtime.bind` can bind face detection and landmarks models together, then you can run the `runtime.forward` API to get the output landmarks and bboxes. Here is an example of [PIPNet](https://github.com/jhb86253817/PIPNet). Pretrained weights of PIPNet, [Download](https://github.com/DefTruth/torchlm/releases/tag/torchlm-0.1.6-alpha).
+In **torchlm**, we provide pipelines for deploying models with [PyTorch](https://github.com/pytorch/pytorch) and [ONNXRuntime](https://github.com/microsoft/onnxruntime). A high level API named `runtime.bind` can bind face detection and landmarks models together, then you can run the `runtime.forward` API to get the output landmarks and bboxes. Here is an example of [PIPNet](https://github.com/jhb86253817/PIPNet). Pretrained weights of PIPNet, [Download](https://github.com/xlite-dev/torchlm/releases/tag/torchlm-0.1.6-alpha).
 
 #### Inference on PyTorch Backend
 
