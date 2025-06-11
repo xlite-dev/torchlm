@@ -1,23 +1,17 @@
-![torchlm-logo](https://github.com/xlite-dev/torchlm/assets/31974251/8baf6761-85c1-4ff0-aef1-291ed1ca469e)    
+<div align="center">
+  <p align="center">
+    <h2>💎 TorchLM: An easy-to-use PyTorch library for face landmarks detection.</h2>
+  </p>
+  <div align='center'>
+      <img src=https://img.shields.io/badge/PRs-welcome-9cf.svg >
+      <img src=https://img.shields.io/pypi/v/torchlm?color=aff >
+      <img src=https://static.pepy.tech/personalized-badge/torchlm?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Downloads >
+      <img src=https://img.shields.io/pypi/pyversions/torchlm?color=dfd >
+      <img src=https://img.shields.io/badge/macos|linux|windows-pass-skyblue.svg >
+      <img src=https://img.shields.io/badge/license-MIT-lightblue.svg >
+ </div>
+</div>
 
-<!----
-<div align='center'>
-  <img src=https://img.shields.io/badge/PRs-welcome-9cf.svg >
-  <img src=https://img.shields.io/pypi/v/torchlm?color=aff >
-  <img src=https://img.shields.io/pypi/pyversions/torchlm?color=dfd >
-  <img src=https://img.shields.io/badge/macos|linux|windows-pass-skyblue.svg >
-  <img src=https://img.shields.io/badge/license-MIT-lightblue.svg >
-</div>   
----->
-
-<div align='center'>
-  <img src=https://img.shields.io/badge/PRs-welcome-9cf.svg >
-  <img src=https://img.shields.io/pypi/v/torchlm?color=aff >
-  <img src=https://static.pepy.tech/personalized-badge/torchlm?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Downloads >
-  <img src=https://img.shields.io/pypi/pyversions/torchlm?color=dfd >
-  <img src=https://img.shields.io/badge/macos|linux|windows-pass-skyblue.svg >
-  <img src=https://img.shields.io/badge/license-MIT-lightblue.svg >
-</div>   
 
 <p align="center">English | <a href="docs/api/transforms.md">Data Augmentations API Docs</a> | <a href="https://www.zhihu.com/column/c_1426666301352218624">ZhiHu Page</a> | <a href="https://pepy.tech/project/torchlm">Pypi Downloads</a> </p>
 
